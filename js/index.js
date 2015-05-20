@@ -3,5 +3,5 @@ window.onload = function() {
 };
 
 function onDeviceReady() {
-	console.log("Device ready!!");
+	$(".messages").html("device ready!");
 }
